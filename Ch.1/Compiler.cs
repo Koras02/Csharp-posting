@@ -98,5 +98,5 @@
 
 //string message = "string runtime";
 
-object anotherMessage = "This is another string of characters";
-IEnumerable<char> someCharacters = "abcdefghijkmnopqrstuvwxyz";
+//object anotherMessage = "This is another string of characters";
+//IEnumerable<char> someCharacters = "abcdefghijkmnopqrstuvwxyz";
