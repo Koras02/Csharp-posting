@@ -31,6 +31,6 @@
 //Console.WriteLine(apple);
 //Console.WriteLine(onSale);
 
-var v = new { Title = "Hello", Age = 24 };
+//var v = new { Title = "Hello", Age = 24 };
 
-Console.WriteLine(v.ToString());
+//Console.WriteLine(v.ToString());
