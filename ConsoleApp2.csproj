@@ -8,7 +8,24 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Game\NewFolder\" />
+    <Compile Remove="Ch.1\**" />
+    <Compile Remove="Ch.2\**" />
+    <Compile Remove="Game\**" />
+    <Compile Remove="Pattern\**" />
+    <EmbeddedResource Remove="Ch.1\**" />
+    <EmbeddedResource Remove="Ch.2\**" />
+    <EmbeddedResource Remove="Game\**" />
+    <EmbeddedResource Remove="Pattern\**" />
+    <None Remove="Ch.1\**" />
+    <None Remove="Ch.2\**" />
+    <None Remove="Game\**" />
+    <None Remove="Pattern\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Ch.3\Catch.cs" />
+    <Compile Remove="Ch.3\ER-Hnadling.cs" />
+    <Compile Remove="Ch.3\Finally.cs" />
   </ItemGroup>
 
 </Project>
