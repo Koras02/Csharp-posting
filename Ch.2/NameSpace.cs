@@ -1,17 +1,17 @@
 ﻿
 
 
-////Console.WriteLine("Hello World");
+//Console.WriteLine("Hello World");
 
-//namespace SampleNameSpace;
-
-
+namespace SampleNameSpace;
 
 
-//class AnotherSampleNameClass
-//{
-//    public void AnotherSampleNameMethod()
-//    {
-//        System.Console.WriteLine("SampleMethod inside NameSpaceMethod");
-//    }
-//}
+
+
+class AnotherSampleNameClass
+{
+    public void AnotherSampleNameMethod()
+    {
+        System.Console.WriteLine("SampleMethod inside NameSpaceMethod");
+    }
+}

@@ -1,17 +1,17 @@
-﻿//interface IEquatable<T>
-//{
-//    bool Equals(T obj);
-//}
+﻿interface IEquatable<T>
+{
+    bool Equals(T obj);
+}
 
 
-//public class Car : IEquatable<Car>
-//{
-//    public string? Make { get; set; }
-//    public string? Model { get; set; }
-//    public string? Year { get; set; }
+public class Car : IEquatable<Car>
+{
+    public string? Make { get; set; }
+    public string? Model { get; set; }
+    public string? Year { get; set; }
 
-//    public bool Equals(Car? car)
-//    {
-//        return (this.Make, this.Model, this.Year) == (car?.Make, car?.Model, car?.Year);
-//    }
-//}
+    public bool Equals(Car? car)
+    {
+        return (this.Make, this.Model, this.Year) == (car?.Make, car?.Model, car?.Year);
+    }
+}
