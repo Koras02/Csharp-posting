@@ -10,22 +10,28 @@
   <ItemGroup>
     <Compile Remove="Ch.1\**" />
     <Compile Remove="Ch.2\**" />
+    <Compile Remove="Ch.3\**" />
     <Compile Remove="Game\**" />
     <Compile Remove="Pattern\**" />
     <EmbeddedResource Remove="Ch.1\**" />
     <EmbeddedResource Remove="Ch.2\**" />
+    <EmbeddedResource Remove="Ch.3\**" />
     <EmbeddedResource Remove="Game\**" />
     <EmbeddedResource Remove="Pattern\**" />
     <None Remove="Ch.1\**" />
     <None Remove="Ch.2\**" />
+    <None Remove="Ch.3\**" />
     <None Remove="Game\**" />
     <None Remove="Pattern\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Remove="Ch.3\Catch.cs" />
-    <Compile Remove="Ch.3\ER-Hnadling.cs" />
-    <Compile Remove="Ch.3\Finally.cs" />
+    <Compile Remove="Catch.cs" />
+    <Compile Remove="Ch3_2\Delegate.cs" />
+    <Compile Remove="Ch3_2\MultiConnecting.cs" />
+    <Compile Remove="ER-Hnadling.cs" />
+    <Compile Remove="Finally.cs" />
+    <Compile Remove="MyCustom.cs" />
   </ItemGroup>
 
 </Project>
