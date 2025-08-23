@@ -27,8 +27,11 @@
 
   <ItemGroup>
     <Compile Remove="Catch.cs" />
-    <Compile Remove="Ch3_2\Delegate.cs" />
-    <Compile Remove="Ch3_2\MultiConnecting.cs" />
+    <Compile Remove="Ch.3_2\Delegate.cs" />
+    <Compile Remove="Ch.3_2\MultiConnecting.cs" />
+    <Compile Remove="Ch.3_3\Action.cs" />
+    <Compile Remove="Ch.3_3\FuncDel.cs" />
+    <Compile Remove="Ch.3_3\Lamda.cs" />
     <Compile Remove="ER-Hnadling.cs" />
     <Compile Remove="Finally.cs" />
     <Compile Remove="MyCustom.cs" />
