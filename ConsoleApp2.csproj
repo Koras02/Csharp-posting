@@ -12,16 +12,19 @@
     <Compile Remove="Ch.2\**" />
     <Compile Remove="Ch.3\**" />
     <Compile Remove="Game\**" />
+    <Compile Remove="Ch.3\Ch3_4\**" />
     <Compile Remove="Pattern\**" />
     <EmbeddedResource Remove="Ch.1\**" />
     <EmbeddedResource Remove="Ch.2\**" />
     <EmbeddedResource Remove="Ch.3\**" />
     <EmbeddedResource Remove="Game\**" />
+    <EmbeddedResource Remove="Ch.3\Ch3_4\**" />
     <EmbeddedResource Remove="Pattern\**" />
     <None Remove="Ch.1\**" />
     <None Remove="Ch.2\**" />
     <None Remove="Ch.3\**" />
     <None Remove="Game\**" />
+    <None Remove="Ch.3\Ch3_4\**" />
     <None Remove="Pattern\**" />
   </ItemGroup>
 
@@ -35,6 +38,10 @@
     <Compile Remove="ER-Hnadling.cs" />
     <Compile Remove="Finally.cs" />
     <Compile Remove="MyCustom.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Ch.3\Ch3_4\ToLis.cs" />
   </ItemGroup>
 
 </Project>
