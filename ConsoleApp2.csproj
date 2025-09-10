@@ -38,7 +38,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Include="Ch.3\Ch.3_5\InConvirance.cs" />
+    <Compile Include="Ch.3\Ch.3_6\when.cs" />
   </ItemGroup>
 
 </Project>
