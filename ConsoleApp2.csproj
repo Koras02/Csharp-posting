@@ -32,13 +32,14 @@
     <Compile Remove="Ch.3_3\Action.cs" />
     <Compile Remove="Ch.3_3\FuncDel.cs" />
     <Compile Remove="Ch.3_3\Lamda.cs" />
+    <Compile Remove="Ch.4\Ch.4_1\async-await.cs" />
+    <Compile Remove="Ch.4\Ch.4_1\async.cs" />
+    <Compile Remove="Ch.4\Ch.4_1\example.cs" />
+    <Compile Remove="Ch.4\Ch.4_1\http.cs" />
+    <Compile Remove="Ch.4\Ch.4_1\parallel-async.cs" />
     <Compile Remove="ER-Hnadling.cs" />
     <Compile Remove="Finally.cs" />
     <Compile Remove="MyCustom.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Include="Ch.3\Ch.3_6\when.cs" />
   </ItemGroup>
 
 </Project>
